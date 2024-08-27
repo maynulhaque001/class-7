@@ -1,0 +1,307 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.header_one {
+  height: 100px;
+  background: #777777;
+}
+
+.button_one {
+  background-color: green;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-left: 16px;
+  padding: 10px 10px;
+  color: #fff;
+}
+
+.container_one {
+  overflow: hidden;
+}
+
+.block_one {
+  background-color: bisque;
+  height: 300px;
+  width: 65%;
+  float: left;
+}
+
+.contact_one {
+  background-color: cadetblue;
+  height: 300px;
+  width: 35%;
+  float: right;
+}
+
+.container_two {
+  overflow: hidden;
+}
+
+.item {
+  height: 200px;
+  width: 33.33%;
+  float: left;
+}
+
+.box1 {
+  background-color: green;
+}
+
+.box2 {
+  background-color: aquamarine;
+}
+
+.box3 {
+  background-color: blue;
+}
+
+.container_three {
+  overflow: hidden;
+}
+
+.item2 {
+  height: 150px;
+  width: 25%;
+  float: left;
+}
+
+.box4 {
+  background-color: aqua;
+}
+
+.box5 {
+  background-color: aquamarine;
+}
+
+.box6 {
+  background-color: burlywood;
+}
+
+.box7 {
+  background-color: cornsilk;
+}
+
+.footer_one {
+  background-color: #999;
+  height: 100px;
+  align-items: center;
+}
+
+/* =====Image to html===== */
+/* =========header========== */
+
+header {
+  border-bottom: 2px solid #eef0f3;
+  padding: 10px 0;
+}
+
+.container {
+  width: 90%;
+  /* border: 1px solid black; */
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.logo {
+  width: 09%;
+  /* border: 1px solid black; */
+  float: left;
+}
+
+.logo img {
+  width: 100%;
+}
+
+.menu {
+  margin-top: 4px;
+  width: 45%;
+  /* border: 1px solid black; */
+  float: right;
+}
+
+.menu ul {
+  float: right;
+}
+
+.menu ul li {
+  list-style: none;
+  float: left;
+}
+
+.menu ul li a {
+  font-family: sans-serif;
+  color: #0f2656;
+  text-decoration: none;
+  margin: 0px 20px;
+  display: inline-block;
+}
+
+.menu ul li:last-child a {
+  margin-right: 0;
+}
+
+/* ==========banner here============ */
+.banner {
+  padding: 60px 0;
+  /* border: 2px solid blue; */
+}
+
+.container2 {
+  width: 60%;
+  margin: 0 auto;
+  /* border: 1px solid tomato; */
+}
+
+.b_content {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.b_content h1 {
+  font-size: 45px;
+  font-weight: 700;
+  color: #0f2656;
+  margin: 0;
+}
+
+.b_content h2 {
+  font-size: 45px;
+  font-weight: 700;
+  color: #008aff;
+  margin: 10px 0;
+}
+
+.b_content p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #0f2656;
+  line-height: 28px;
+  letter-spacing: 0.3px;
+  word-spacing: 1px;
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+.b_image {
+  width: 75%;
+  /* border: 1px solid tomato; */
+  margin: 0 auto;
+}
+
+.b_image img {
+  width: 100%;
+}
+
+/* success start */
+.success {
+  padding: 60px;
+}
+
+.s_content {
+  overflow: hidden;
+  font-family: sans-serif;
+}
+
+.s_left {
+  width: 40%;
+  float: left;
+  /* border: 1px solid black; */
+  text-align: right;
+  padding: 0 0 0 20px;
+}
+
+.s_left h2 {
+  font-weight: 700;
+  font-size: 40px;
+  color: #f15767;
+  margin: 0 0 10px;
+}
+
+.s_left p {
+  font-weight: 400;
+  font-size: 14px;
+  color: #0f2656;
+  margin: 0;
+  line-height: 22px;
+}
+
+.s_right {
+  width: 50%;
+  float: right;
+  /* border: 1px solid black; */
+  padding: 0 20px 0 0;
+}
+
+.s_right h1 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #0f2656;
+  margin: 0;
+}
+
+/* success end */
+
+/* successful start */
+.feature {
+}
+
+.f_content {
+  overflow: hidden;
+}
+
+.f_single {
+  width: 27%;
+  border: 1px solid black;
+  font-family: sans-serif;
+  color: #0f2656;
+  padding: 30px 24px 45px;
+  margin-right: 25px;
+  float: left;
+}
+
+.f_single:last-child {
+  margin-right: 0;
+}
+
+.pink {
+  background-color: #fdebed;
+}
+
+.green {
+  background-color: #ebf9f4;
+}
+
+.yellow {
+  background-color: #fff7e8;
+}
+
+.f_img {
+}
+
+.f_img img {
+  width: 100%;
+}
+
+.f_single h2 {
+  font-size: 22px;
+  font-weight: 700;
+  margin: 20px 0;
+}
+
+.f_single p {
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0;
+}
+/* successful end */
+
+.last_part {
+  background-color: #008aff;
+  font-size: 10px;
+  text-align: center;
+  margin: 25px 0;
+  padding: 30px 0;
+  color: #fff;
+}
